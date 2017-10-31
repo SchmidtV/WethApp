@@ -3,8 +3,8 @@ var React = require('react');
 var Examples = (props) =>{
     return(
         <div>
-            <h3>Examples component!</h3>
-            <p>Some text</p>
+            <h3>Examples</h3>
+            <p>Welcome to examples component!</p>
         </div>
     );
 };
