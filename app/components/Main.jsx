@@ -1,12 +1,12 @@
-var React = require("react");
-var Nav = require('Nav');
+let React = require("react");
+let Nav = require('Nav');
 
-var Main = (props) =>{
+let Main = (props) =>{
     return (
         <div>
             <Nav/>
-            <div className="row align-center">
-                <div className="columns medium-6 large-4 small-centered">
+            <div className="row">
+                <div className="columns medium-6 large-4 small-centered align-center">
                     {props.children}
                 </div>
             </div>
